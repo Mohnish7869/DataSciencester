@@ -1,4 +1,4 @@
-from __future__ import division  # fuck integer divisiion
+from __future__ import division  # fuck integer division
 from collections import Counter
 
 
@@ -37,10 +37,10 @@ total_connections = sum(number_of_friends(user) for user in users)
 num_users = len(users)
 avg_connections = total_connections / num_users
 
-print "Average number of connections:", avg_connections
+print "Average number of connections:- ", avg_connections
 
 
-# Sort by most friends to least
+# Sort by most friends to least friends.
 # Degree centrality https://en.wikipedia.org/wiki/Centrality
 num_friends_by_id = [(user['id'], number_of_friends(user)) for user in users]
 
